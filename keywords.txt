@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+BlynkGO_ThaiCal	KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+get	KEYWORD2
+is_wanpra	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ERROR_LOWER_Y2540	LITERAL1
+ERROR_HTTP_FAIL	LITERAL1
+IS_WANPRA	LITERAL1
+IS_NOT_WANPRA	LITERAL1

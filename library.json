@@ -1,0 +1,17 @@
+{
+  "name": "BlynkGO_ThaiCal",
+  "keywords": "ESP8266, ESP32, Thai Calenadr",
+  "description":  "Thai Lunar Calendar library for ESP8266 & ESP32 ",
+  "homepage": "https://github.com/BlynkGO/BlynkGO_ThaiCal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlynkGO/BlynkGO_ThaiCal"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "BlynkGO",
+    "url": "https://github.com/BlynkGO/"
+  },
+  "frameworks": "arduino",
+  "platforms": "esp8266, esp32"
+}
