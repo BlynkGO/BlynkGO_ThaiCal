@@ -27,8 +27,8 @@ void loop() {
   BlynkGO.update(); 
   
   if(BlynkGO.isNTPSynced() && is_update_thai_cal ){
-    bool is_wanpra;
-    String thai_date  = BlynkGO_ThaiCal::get(day(), month(), year(), &is_wanpra);
+    bool is_wanpra; String wan_text; String year_naksatra;
+    String thai_date  = BlynkGO_ThaiCal::get(day(), month(), year(), &is_wanpra, &wan_text, &year_naksatra);
 
     if( thai_date != "") {
       lb_thai_date  = thai_date;
