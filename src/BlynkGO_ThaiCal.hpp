@@ -6,7 +6,7 @@
 /** Minor version number (x.X.x) */
 #define THAICAL_VERSION_MINOR   0
 /** Patch version number (x.x.X) */
-#define THAICAL_VERSION_PATCH   2
+#define THAICAL_VERSION_PATCH   3
 
 #define THAICAL_VERSION_TEXT    (String(THAICAL_VERSION_MAJOR)+"."+String(THAICAL_VERSION_MINOR)+"."+String(THAICAL_VERSION_PATCH))
 
@@ -129,7 +129,7 @@ class BlynkGO_ThaiCal
             line_data = data.substring(id4, id5);
             line_data.trim();
             *year_naksatra = line_data.substring(line_data.indexOf(" ปี") + 1);
-            Serial.println(*year_naksatra);
+            // Serial.println(*year_naksatra);
           }
         }
         else {
